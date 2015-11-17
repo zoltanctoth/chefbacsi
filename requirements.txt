@@ -8,7 +8,6 @@ dateutils==0.6.6
 decorator==4.0.4
 facebook-sdk==0.4.0
 functools32==3.2.3.post2
-gnureadline==6.3.3
 hipchat==0.0.1
 ipykernel==4.0.3
 ipython==4.0.0
@@ -23,7 +22,6 @@ nbconvert==4.0.0
 nbformat==4.0.0
 notebook==4.0.5
 path.py==8.1.1
-pexpect==3.3
 pickleshare==0.5
 ptyprocess==0.5
 Pygments==2.0.2
@@ -37,3 +35,4 @@ terminado==0.5
 tornado==4.2.1
 traitlets==4.0.0
 wheel==0.24.0
+will
