@@ -1,5 +1,6 @@
-# miamaimenu
-Mi a mai menü?
+# Mr. Chef
+
+![](https://upload.wikimedia.org/wikipedia/en/1/1e/SouthParkChef.png)
 
 ````
 1. Install pip:
