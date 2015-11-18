@@ -319,7 +319,7 @@ class ChefPlugin(WillPlugin):
 
         words = self.get_body(message)[len("i'm eating with "):].split(" ")
         print words
-        friends = [str(w[1:]) for w in words if w[0] == "@"]
+        friends = [unicode(w[1:]) for w in words if w[0] == "@"]
         friends.append(self.get_nick(message))
         friends = list(set(friends))
 
