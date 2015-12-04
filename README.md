@@ -1,10 +1,24 @@
 # Mr. Chef
 
 **Mr Chef is RapidMiner Hungary's personal lunch advisor HipChat bot.**
-Pull requests welcome. :)
+
+Pull requests are always welcome. :)
 
 ![](https://upload.wikimedia.org/wikipedia/en/1/1e/SouthParkChef.png)
 
+## How to restart chef?
+
+````
+ssh jenkins@jenkins.rapidminer.eu
+screen -r chef # activate chef screen
+CTRL+C
+git pull
+./run_will.py
+CTRL+A CTRL+D # detach chef screen
+logout
+````
+
+## Installation
 ````
 1. Install pip:
 http://pip.readthedocs.org/en/stable/installing/
