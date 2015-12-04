@@ -1,4 +1,4 @@
-# Mr. Chef
+# Mr. Chef, RapidMiner Hungary's personal lunch advisor bot.
 
 ![](https://upload.wikimedia.org/wikipedia/en/1/1e/SouthParkChef.png)
 
