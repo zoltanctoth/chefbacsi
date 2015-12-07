@@ -2,7 +2,8 @@
 
 **Mr Chef is RapidMiner Hungary's personal lunch advisor HipChat bot.**
 
-Pull requests are always welcome. :)
+This is a Hackathon project. Please mind the code quality ;)
+Pull requests are always welcome.
 
 ![](https://upload.wikimedia.org/wikipedia/en/1/1e/SouthParkChef.png)
 
