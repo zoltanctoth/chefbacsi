@@ -10,6 +10,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
+from datetime import timedelta
 
 blacklist = ["Calvin Bistro", "Drop", "Farger Kávézó", "Tróger Gasztró Bisztró", "Komédiás Kávéház", "Mozsár Kávézó"]
 aliases = {
