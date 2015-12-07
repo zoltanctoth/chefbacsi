@@ -40,7 +40,7 @@ def fb_parse(response, start_time=None):
     restaurant["info"] = []
 
     if start_time is None:
-        start_time = datetime.combine(date.today(), datetime.min.time())  # today 00:00
+        start_time = datetime.combine(date.today(), datetime.min.time()) - timedelta(hours=10) # today 00:00
 
     d = response.json()
 
