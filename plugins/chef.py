@@ -20,7 +20,7 @@ aliases = {
     },
     "hal": {
         "aliases": ["hal", "ponty", "lazac", "harcsa"],
-        "icon": "http://dory.trialx.com/images/search/dory-icon.png"
+        "icon": "http://web.archive.org/web/20140122233755/http://dory.trialx.com/images/search/dory-icon.png"
     },
     "rantott": {
         "aliases": ["rántott", "bécsiszelet"],
