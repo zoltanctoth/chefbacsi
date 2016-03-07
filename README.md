@@ -7,16 +7,27 @@ Pull requests are always welcome.
 
 ![](https://upload.wikimedia.org/wikipedia/en/1/1e/SouthParkChef.png)
 
-## How to restart chef?
+## How to debug restart chef?
 
 ````
-ssh jenkins@jenkins.rapidminer.eu
+ssh jenkins@jenkins.radoop.eu
 screen -r chef # activate chef screen
 CTRL+C
 git pull
 ./run_will.py
 CTRL+A CTRL+D # detach chef screen
 logout
+````
+
+## What to do is chef is not running at all?
+````
+sh jenkins@jenkins.radoop.eu
+screen -S chef # create chef screen
+cd zoltanctoth/chefbacsi/
+. env/bin/activate # activate python environment
+. env_init.sh # push credentials to the environment
+./run_will.py # run chef!
+CTRL+A CTRL+D # detach screen
 ````
 
 ## Installation
